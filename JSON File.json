@@ -1,0 +1,68 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "HumanResources",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "GetJobInformation"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "any new jobs posted today?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "are all the doors locked?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "are there any new data analyst jobs open?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "is there any work with databases?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "show me all the jobs for data analysts that were posted on linkedin.",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "today's job postings?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "turn light on.",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "what positions are available for data analyst?",
+      "intent": "GetJobInformation",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
